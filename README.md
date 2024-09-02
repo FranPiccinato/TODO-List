@@ -31,6 +31,7 @@ Users should be able to:
 
 ### Screenshot
 ![image](https://github.com/user-attachments/assets/105c15b9-bb55-46f9-b316-1df86f6b9fd7)
+![image](https://github.com/user-attachments/assets/324d9f20-6e73-4dd9-b878-ad830297a8dd)
 
 ### Links
 
