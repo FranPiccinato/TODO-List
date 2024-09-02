@@ -30,7 +30,7 @@ Users should be able to:
 - **Bonus**: Drag and drop to reorder items on the list
 
 ### Screenshot
-
+![image](https://github.com/user-attachments/assets/105c15b9-bb55-46f9-b316-1df86f6b9fd7)
 
 ### Links
 
