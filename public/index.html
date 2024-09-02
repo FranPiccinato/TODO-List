@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div id="todo-container" class="todo-section">
+        <div id="title-container" class="title-section">
+          <h1 id="TODO" class="title-todo">TODO</h1>
+          <button id="btn-theme" class="btn btn-theme-toggle">
+          </button>
+        </div>
+
+        <div id="containerNewTodo" class="section-NewTodo">
+          <div class="btn-check">
+            <img class="imgCheck" src="images/icon-check.svg">
+          </div>
+          <input type="text" name="newTodo" id="newTodo" class="inputTodo" placeholder="Create a new todo...">
+        </div>
+
+        <div id="containerList" class="section-List">
+          <ul id="todoList" class="section-todoList">
+          </ul>
+        </div>
+        <div id="containerFilter" class="section-filter">
+          <p id="nItems" class="section-items">0 items</p>
+          <div class="centerFilters filterL">
+            <button class="btn-all btn btnFilter btn-blue">All</button>
+            <button class="btn-active btn btnFilter">Active</button>
+            <button class="btn-completed btn btnFilter">Completed</button>
+          </div>
+          <button id="btn-clear" class="btn section-clear btnFilter">Clear Completed</button>
+        </div>
+        <div class="section-filter filterS">
+          <div class="centerFilters">
+            <button class="btn-all btn btnFilter btn-blue">All</button>
+            <button class="btn-active btn btnFilter">Active</button>
+            <button class="btn-completed btn btnFilter">Completed</button>
+          </div>
+        </div>
+        <p id="drag-and-drop" class="drNdr">Drag and drop to reorder list</p>
+      </div>
+    </div>
+    <div id="footer" class="section-footer">
+      <div class="attribution footerLight">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/FranPiccinato" target="_blank">Francesca Piccinato</a>.
+      </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore-compat.js"></script>
+    <script type="module" src="firebase.js"> </script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
